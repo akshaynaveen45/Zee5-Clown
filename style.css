@@ -1,0 +1,330 @@
+*{
+    margin:0;
+    font-family: arial;
+    border: border-box;  
+}
+
+.navbar{
+    height: 140px;
+    
+    background-color: rgb(0 0 0) ;
+    color:#dddddd;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 63px;
+    width:100px;
+    
+}
+.logo{
+    background-image: url("ZEE5_logo.svg");
+    background-size: cover;
+    height: 100px;
+    width:auto; 
+    display: flex;
+    align-items: center;
+}
+/* .border{ 
+    border: 6px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+} */
+
+/* box-2 */
+.nav-home{
+font-size: 14px;
+border-inline-color: white;
+}
+
+/* box-3 */
+.nav-tvshows{
+    font-size:14px;
+}
+/* box-4 */
+.nav-movies{
+    font-size:14px;
+}
+/* box-5 */
+.nav-premium{
+    font-size:14px;
+}
+/* box-6 */
+.nav-news{
+    font-size: 14px;
+}
+
+/* box-7 */
+
+.nav-search{
+      display: flex;
+      justify-content: space-evenly;
+      background-color: black;
+      width:620px;
+      height: 40px;
+      border-radius: 4px;
+      border-color: whitesmoke;
+    
+}
+.search-select{
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px ;
+    border-color: whitesmoke;
+}
+.search-input{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-color: whitesmoke;
+    border
+
+}
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color:r g b a (0,0,0,0) ;
+}
+.nav-language{
+    display:flex;
+    height: 36px;
+    width:36px;
+    align-items: center;
+    
+}
+.login-button{
+  color: white;
+  background-color: black;
+  border-color: white;
+  height: 30px;
+  width: 50px;
+  font-size: 16px;
+
+}
+.buy-plan{
+    color: white;
+    background-color: rgb(130,48,198);
+    border-bottom-color: white;
+    border: none;
+    height:40px;
+    width: 82.9px;
+    font-size: 10px;
+    border-radius: 6px;
+}
+
+/* hero-section */
+.hero-section{
+    background-image: url("header.jpg") ;
+    height: 500px;
+    
+}
+
+/* box section
+.box-section{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+} */
+
+
+/* .box{
+    height:400px;
+    width:22%;
+    border: 2px solid black;
+    border-color: white;
+}
+
+.box-img{
+    
+    max-width: 100%;
+    max-height: 100%;
+    width:auto;
+    height: auto;
+position: relative;
+transform: translateZ(0);
+} */
+
+.trending{
+    background-color:black;
+    color:white;
+    
+}
+
+
+.title-card-row {
+    display: flex;
+    justify-content: space-evenly; /* Space out boxes evenly */
+    gap: 15px; /* Space between each box */
+    padding: 20px;
+    background-color: black;
+}
+
+/* Title card box styling */
+.title-card {
+    width: 180px; /* Adjust width as needed */
+    height: 280px; /* Adjust height as needed */
+    overflow: hidden;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for a lifted effect */
+    background-color: #333; /* Background color for loading time */
+
+}
+
+/* Image styling */
+.title-card img {
+    width: 100%; /* Full width to fit box */
+    height: 100%; /* Full height to fit box */
+    object-fit: cover; /* Crop image to fit box if needed */
+}
+
+
+.language{
+    background-color: black;
+    color: white;
+}
+
+.lang-card-row {
+    display: flex;
+    justify-content: space-evenly; /* Space out boxes evenly */
+    gap: 15px; /* Space between each box */
+    padding: 20px;
+    background-color: black;
+    align-items: center;
+}
+
+.lang-card {
+    width: 500px; /* Adjust width as needed */
+    height: 147.38px; /* Adjust height as needed */
+    overflow: hidden;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for a lifted effect */
+    background-color: #333; /* Background color for loading time */
+}
+
+/* Image styling */
+.lang-card img {
+    width: 100%; /* Full width to fit box */
+    height: 100%; /* Full height to fit box */
+    object-fit: cover; /* Crop image to fit box if needed */
+}
+
+
+
+.general{
+    background-color: black;
+    color: white;
+}
+
+.genre-card-row {
+    display: flex;
+    justify-content: space-evenly; /* Space out boxes evenly */
+    gap: 15px; /* Space between each box */
+    padding: 20px;
+    background-color: black;
+    align-items: center;
+}
+
+.genre-card {
+    width: 500px; /* Adjust width as needed */
+    height: 147.38px; /* Adjust height as needed */
+    overflow: hidden;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for a lifted effect */
+    background-color: #333; /* Background color for loading time */
+}
+
+/* Image styling */
+.genre-card img {
+    width: 100%; /* Full width to fit box */
+    height: 100%; /* Full height to fit box */
+    object-fit: cover; /* Crop image to fit box if needed */
+}
+
+
+
+.mega{
+    background-color: black;
+    color: white;
+}
+
+.time-card-row {
+    display: flex;
+    justify-content: space-evenly; /* Space out boxes evenly */
+    gap: 15px; /* Space between each box */
+    padding: 20px;
+    background-color: black;
+}
+
+/* Title card box styling */
+.time-card {
+    width: 180px; /* Adjust width as needed */
+    height: 280px; /* Adjust height as needed */
+    overflow: hidden;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for a lifted effect */
+    background-color: #333; /* Background color for loading time */
+
+}
+
+/* Image styling */
+.time-card img {
+    width: 100%; /* Full width to fit box */
+    height: 100%; /* Full height to fit box */
+    object-fit: cover; /* Crop image to fit box if needed */
+}
+
+footer{
+    
+    background-color: black;
+    
+}
+
+.foot-panel1{
+    background-color:black;
+    color: white;
+    height: 20pxpx;
+    display: flex;
+    justify-content: start;
+    align-items:first baseline;
+    margin-left: 150px;
+    margin margin-top: 30px;
+    
+
+}
+
+.foot-panel2{
+    background-color: black;
+    color:white;
+    height:300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+
+}
+
+ul a{
+    display: block;
+    margin-top: 10px;
+    color: rgba(217,217,217,0.5);
+
+}
+
+ul p {
+    color:#fff;
+}
+
+.foot-panel3{
+    background-color: black;
+    color: #dddddd;
+    height: 80px;
+    margin-left: 180px;
+}
